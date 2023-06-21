@@ -17,7 +17,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static com.sun.deploy.cache.Cache.copyFile;
 
 public class Amazon {
 

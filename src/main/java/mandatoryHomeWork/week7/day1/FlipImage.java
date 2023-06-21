@@ -1,4 +1,4 @@
-package mandatoryHomeWork.week7;
+package mandatoryHomeWork.week7.day1;
 
 public class FlipImage {
 
