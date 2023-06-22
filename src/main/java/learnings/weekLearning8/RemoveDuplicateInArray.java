@@ -1,4 +1,4 @@
-package learnings;
+package learnings.weekLearning8;
 
 public class RemoveDuplicateInArray {
 

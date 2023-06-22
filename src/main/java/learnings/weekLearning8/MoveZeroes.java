@@ -1,4 +1,4 @@
-package learnings;
+package learnings.weekLearning8;
 
 import java.util.Arrays;
 

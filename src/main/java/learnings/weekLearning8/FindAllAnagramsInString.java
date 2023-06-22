@@ -1,4 +1,4 @@
-package learnings;//package org.dsa;
+package learnings.weekLearning8;//package org.dsa;
 //
 //import org.junit.Test;
 //
