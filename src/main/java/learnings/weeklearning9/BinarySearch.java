@@ -3,17 +3,20 @@ package learnings.weeklearning9;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        int[] arr = {-5,-4,-3,0, 1,4,6,15,20,45,67};
-        int target = 0;
+        int[] arr = {2,4,6,15,20,45,67};
+        int target = 3;
         int ans = binarySear(arr, target);
         System.out.println(ans);
     }
 
     public static int binarySear(int[] arr, int target){
 
-        int left =0, right = arr.length;
+        int left =0, right = arr.length-1;
         int mid =0;
 
+        if(target > arr[arr.length-1]){
+            return -1;
+        }
         while(left <= right){
             /**
              * mid = left + (right-left)/2;
@@ -32,7 +35,7 @@ public class BinarySearch {
             }
         }
 
-        return -1;
+        return right;
 
 
     }
