@@ -1,0 +1,36 @@
+
+Write test case enumeration for Book an itinerary in the Make My Trip application
+
+
+1) Api testing
+    a) Verify the endpoints of the iternary list and able to get the response
+    b) Authentication of users
+    c) Checkout of booking from
+    d) verify payment is successfull
+    e) Customer support interaction
+
+2) Field validation
+    a) Verify the date range of the itinerary
+    b) Verify search field and output of the given search
+    c) Verify the sliding bar of the amount is working
+    d) Verify the min and max in filter
+
+3) Testing techniques
+    a) Different input data with valid and invalid criteria
+    b) Minimum and maximum date, passenger count -> boundary value
+    c) Error guessing -> Payment failure due to incorrect pin
+
+4) Compatibility & Platform
+    a) Verify in web and mobile application
+    b) Check in all browsers
+
+5) Globalisation and localization
+    a) Use different languages
+
+6) DB
+    a) Verify the User data are saved
+    b) Verify the saved cards are shown
+
+7) Accessibility
+    a) Touch regonisation in mobile application
+    b) Response of the application
