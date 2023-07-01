@@ -1,7 +1,7 @@
 package mandatoryHomeWork.week4.day1;
 
 public class LinkedList {
-	Node head;
+	ListNode head;
 	
 
 	public static void main(String[] args) {
@@ -20,21 +20,21 @@ public class LinkedList {
 	
 	
 	
-class Node{
+class ListNode {
 	
 	int data;
-	Node next;
+	ListNode next;
 	
 		
 	}
 
 public void lastIndex() {
-	Node newNode = new Node();
+	ListNode newNode = new ListNode();
 	
 }
 
 public void insert(int ele) {
-	Node newNode = new Node();
+	ListNode newNode = new ListNode();
 	newNode.data = ele;
 	newNode.next = null;
 	
@@ -44,7 +44,7 @@ public void insert(int ele) {
 
 public void display() {
 	
-	Node temp = head;
+	ListNode temp = head;
 	while(temp != null) {
 		System.out.print(temp.data+ " ");
 		temp = temp.next;
